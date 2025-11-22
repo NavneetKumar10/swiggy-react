@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    border: 1px solid black;
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 0 10px; /* Adjust margin for better spacing */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden; /* Prevent content from overflowing */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.res-card:hover {
+    border: 1px solid #ff0000; /* Change border color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    transform: scale(1.05); /* Slightly scale up the card on hover */
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+   width: 100%;
+   height: auto; /* Maintain aspect ratio */
+   object-fit: cover; /* Ensure the image covers the area without distorting */
+}

@@ -1,0 +1,27 @@
+{
+  "name": "swiggy-react",
+  "version": "1.0.0",
+  "description": "Swiggy by Yuvi",
+  "keywords": [
+    "react"
+  ],
+  "license": "ISC",
+  "author": "Navneet",
+  "type": "commonjs",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
