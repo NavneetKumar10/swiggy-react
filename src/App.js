@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-/**
- * Header Component
- * [cite_start]Reference: EP-4.pdf (Page 4) [cite: 664-680]
- */
+
 const Header = () => {
   return (
     <div className="header">
@@ -26,12 +23,7 @@ const Header = () => {
   );
 };
 
-/**
- * Config Driven UI (Mock Data)
- * Note: Video mein data structure "data" key ke andar tha.
- * Maine yahan 'info' hata kar wapas 'data' kar diya hai taaki
- * yeh EXACT video jaisa code ban jaye.
- */
+
 const resList = [
   {
     data: {
@@ -68,11 +60,7 @@ const resList = [
   },
 ];
 
-/**
- * RestaurantCard Component
- * Reference: EP-4.pdf (Page 7)
- * [cite_start]Yahan ab hum '.data' use kar rahe hain jo EXACT video mein hai. [cite: 738]
- */
+
 const RestaurantCard = (props) => {
   const { resData } = props;
 
@@ -105,10 +93,7 @@ const RestaurantCard = (props) => {
   );
 };
 
-/**
- * Body Component
- * [cite_start]Reference: EP-4.pdf (Page 9) [cite: 794-796]
- */
+
 const Body = () => {
   return (
     <div className="body">
