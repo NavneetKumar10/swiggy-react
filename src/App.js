@@ -8,6 +8,7 @@ const Header = () => {
       <div className="logo-container">
         <img
           className="logo"
+          alt="Swiggy Logo"
           src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png"
         />
       </div>
