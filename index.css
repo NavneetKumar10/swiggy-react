@@ -55,3 +55,8 @@
    height: auto; /* Maintain aspect ratio */
    object-fit: cover; /* Ensure the image covers the area without distorting */
 }
+
+.filter {
+    margin:10px;
+    cursor: pointer;
+}

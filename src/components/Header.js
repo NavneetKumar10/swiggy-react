@@ -6,7 +6,8 @@ const Header = () => {
       <div className="logo-container">
         <img
           className="logo"
-          src="{LOGO_URL}"
+          alt="Swiggy Logo"
+          src={LOGO_URL}
         />
       </div>
       <div className="nav-items">
